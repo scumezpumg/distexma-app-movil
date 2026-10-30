@@ -1,13 +1,12 @@
-import { StyleSheet, Text, View, FlatList, ActivityIndicator, TouchableOpacity, Alert, Modal, TextInput, ScrollView, Image, Linking } from 'react-native';
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import { ActivityIndicator, Alert, FlatList, Image, Linking, Modal, ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 
 // ============================================================
 // CONFIGURACIÓN (cambia SOLO estas dos líneas)
 // ============================================================
 // URL del túnel (la misma que en main.js). Cámbiala cada vez que reinicies el túnel.
 // Sin barra "/" al final.
-const URL_BASE = 'https://0a8b7bcd5bffdb.lhr.life/distexma';
-
+const URL_BASE = 'https://distexma-web.onrender.com/';
 // Las imágenes se cargan desde Render para que no dependan del túnel
 const URL_IMAGENES = 'https://distexma-web.onrender.com';
 
